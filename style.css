@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+.wrapper {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 70%;
+    border: 2px solid #eeeeee;
+    height: 50vh;
+    padding:10px;
+    box-shadow: 7px 5px #eeeeee; 
+}
+
+.link-wrapper {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-top: 0;
+}
+
+.link {
+    display: inline-block;
+    vertical-align: baseline;
+    padding: 15px 10px;
+    text-decoration: none;
+    background-color: #32cd32;
+    color: #ffffff;
+    border-radius: 7px;
+}
+
+.link:last-child {
+    float: right;
+}
+
+.link:hover {
+    background-color: #228b22;
+}
+
+.link:focus {
+    background-color: #adff2f;
+    border: 2px solid #228b22; //как убрать чёрный border по умолчанию?
+    box-shadow: 5px 4px #228b22; 
+}
+
+.link:active { 
+    font-size: 1.1em;
+}
+
+.link:disabled { 
+    background-color: #98fb98;
+}
+
+
